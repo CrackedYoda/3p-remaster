@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Poppins:wght@300&display=swap');
+
+@font-face {
+    font-family:riffic;
+    src: url('fontstyle.ttf');
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+    
+    font-family: riffic;
+	
+	
+}
+a{
+    text-decoration: none;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	background-image: url('navbar.svg');
+	line-height: 75px;
+	
+
+}
+nav {
+	
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+	color:black;
+	
+    float: right;
+    border-style: solid 25px;
+    border-color: black;
+}
+
+nav ul li{
+    font-family: 'riffic';
+	list-style: none;
+    float: right;
+  padding-right: 30px;
+
+}
+
+body{
+
+    background-color: #E4E4E4;
+}
+
+    .join3p{
+        padding-left: 70px;
+       
+    }
+.pback{
+width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body{display: grid;}
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #bbb;
+    background-color: black;
+    text-align: center;
+  }
